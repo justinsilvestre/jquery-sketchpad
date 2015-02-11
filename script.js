@@ -6,9 +6,9 @@ var initboxdim = 25;
 var griddim = initboxes*initboxdim;
 var basecolor = '#DDDDDD';
 var randomcolor = function() {
-	var r = parseInt(Math.random()*200);
-	var g = parseInt(Math.random()*200+56);
-	var b = parseInt(Math.random()*96+160);
+	var r = Math.floor(Math.random()*206+50);
+	var g = Math.floor(Math.random()*156+100);
+	var b = Math.floor(Math.random()*56+200);
 	var hex = 'rgb('+r+','+g+','+b+')';
 	return hex;
 };
